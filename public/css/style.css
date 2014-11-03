@@ -35,6 +35,20 @@ h1 {
 	padding: 0 14px 0 4px;
 }
 
+.pull-right {
+	float: right;
+/*	display: block;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1;
+	padding: 0 14px 0 4px;
+	position: absolute;
+	top: 3px;
+	right: -3px;
+	width: 26px;
+	height: 26px;*/
+}
+
 ul {
 	margin: 0;
 	list-style: none;
