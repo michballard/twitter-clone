@@ -207,6 +207,8 @@ h2 {
 
 #tweets-heading {
   padding: 14px;
+  font-size: 18px;
+  color: gray;
 }
 
 #new-tweets {
@@ -224,6 +226,26 @@ h2 {
   padding: 9px 12px 9px 12px;
   background-color: white;
   border-top: 1px solid #e1e8ed;
+}
+
+.tweet-content {
+
+}
+
+.tweet-picture {
+  width: 490px;
+  border-radius: 7px;
+  margin: 0 0 30px 0;
+}
+
+.tweet-links {
+  position: relative;
+  top: 375px;
+}
+
+.tweet-links-no-picture {
+  position: relative;
+  top: 0px;
 }
 
 #follow-heading {
@@ -252,7 +274,7 @@ h2 {
   float: left;
   margin-right: 3%;
   margin-top: 1%; 
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   border-radius: 7px; 
 }
 
@@ -306,6 +328,7 @@ font-weight: 700;
 .link-other {
   text-decoration: none;
   font-size: 12px;
+  margin-right: 2%;
 }
 
 .link-twitter {
