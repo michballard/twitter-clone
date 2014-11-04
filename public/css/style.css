@@ -71,28 +71,26 @@ h1 {
 }
 
 #body {
-    width: auto;
-    margin: 10px 50px 10px 50px;
-    background:#ddd;
+  width: auto;
+  margin: 10px 50px 10px 50px;
+  background:#ddd;
 }
 
 #content-1 {
-    float:left;
-    width:285px;
-    background: black;
-    margin-right: 5px;
+  float: left;
+  width: 285px;
+  background: black;
+  margin-right: 5px;
 }
 
 #content-2-1 {
-    float:left;
-    width:588px;
-    background:#ddf;
-    margin: 0 5px 0 5px;
+  float: left;
+  width: 588px;
+  margin: 0 5px 0 5px;
 }
 #content-2-2 {
-    float:right;
-    width:285px;
-    background:#dff;
+  float: right;
+  width: 285px;
 }
 
 #user-link {
@@ -196,3 +194,121 @@ h1 {
   text-decoration: none;
 }
 
+#tweets-box {
+  border-radius: 7px 7px 0px 0px;  
+  background: white;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+#tweets-heading {
+  padding: 14px;
+}
+
+#new-tweets {
+  border-top: 1px solid #e1e8ed;
+  padding: 8px;
+  text-align: center;
+  background-color: #f5f8fa;
+}
+
+#new-tweets-link {
+  text-decoration: none;
+}
+
+.tweet-item {
+  padding: 9px 12px 9px 12px;
+  background-color: white;
+  border-top: 1px solid #e1e8ed;
+}
+
+#follow-heading {
+  font-size: 18px;
+  color: gray;
+}
+
+#who-to-follow {
+  background: white;
+  border-radius: 7px 7px 0 0;
+  padding: 12px 12px 6px 12px;
+}
+
+#follow-suggestions {
+  background: white;
+  padding: 0px 12px 12px 12px;
+}
+
+.follow-suggestion {
+  padding: 5px;
+}
+
+.twitter-user-picture {
+  height: 48px;
+  width: auto;
+  float: left;
+  margin-right: 3%;
+  margin-top: 1%; 
+  margin-bottom: 5%;
+  border-radius: 7px; 
+}
+
+.twitter-full-name {
+font-weight: 700;
+}
+
+.twitter-username {
+  color: gray;   
+}
+
+#find-people {
+  background-color: #f5f8fa;
+  border-radius: 0 0 7px 7px;  
+  padding: 12px;
+  border-top: 1px solid #e1e8ed;
+}
+
+#find-gmail {
+  padding-bottom: 5px;
+}
+
+#gmail-logo {
+  height: 40px;
+  width: auto;
+  float: left;
+  margin-right: 3%;
+  margin-top: -2%;
+}
+
+#find-other {
+  border-top: 1px solid #e1e8ed;
+  padding-top: 5px;
+}
+
+#twitter-info {
+  margin-top: 10px;
+  background: white;
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 12px;
+  line-height: 18px;
+  color: gray; 
+}
+
+.grey-text {
+  font-size: 12px;
+  color: gray;
+}
+
+.link-other {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.link-twitter {
+  text-decoration: none;
+  color: gray; 
+}
