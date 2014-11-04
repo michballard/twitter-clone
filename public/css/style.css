@@ -107,11 +107,18 @@ h1 {
   background-color: white;
 }
 
+#user-info {
+  width: 100%;
+}
+
 .user-picture {
   height: 72px;
   width: 72px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 7px;
+  float: left;
+  margin-top: -15%;
+  margin-right: 3%;
 }
 
 .user-name-heading {
