@@ -14,11 +14,11 @@
 				<img id="twitter_logo" src="public/images/twitterlogo.png">
 			</h1>
 			<div class="navigation">
-				<ul>
-					<li>Home</li>
-					<li>Notifications</li>
-					<li>Discover</li>
-					<li>Me</li>
+				<ul class="nav-option-list">
+					<li class="nav-option">Home</li>
+					<li class="nav-option">Notifications</li>
+					<li class="nav-option">Discover</li>
+					<li class="nav-option">Me</li>
 				</ul>
 			</div>
 		  <div class="pull-right">
@@ -37,7 +37,50 @@
 		</header>
 		<div id="body">
 	    <div id="main">
-	        <div id="content-1">Name @username</div>
+	        <div id="content-1">
+	        	<div id="user-box">
+	        		<div id="user-link">
+	        			<a href="https://twitter.com/michballard"></a>
+	        		</div>
+	        		<div id="user-details">
+	        			<img src="public/images/michelle_photo.jpg"  class="user-picture">
+	        			<br>
+	        			<a href="https://twitter.com/michballard" class="user-name-heading">Michelle</a>
+	        			<br>
+	        			<a href="https://twitter.com/michballard" class="user-username">@michballard</a>
+	        			<ul class="data-titles">
+	        				<li>TWEETS</li>
+	        				<li>FOLLOWING</li>
+	        				<li>FOLLOWERS</li>
+	        			</ul>
+	        			<ul class="data-counts">
+	        				<li class="data-count-tweets">122</li>
+	        				<li class="data-count-following">72</li>
+	        				<li class="data-count-followers">1828</li>
+	        			</ul>
+	        		</div>
+	        		<div id="compose-tweet">
+	        			<form>
+	        				<input type="text" name="compose-tweet" class="textbox" placeholder="Compose new Tweet...">
+	        			</form>
+	        		</div>
+	        		
+	        	</div>
+	        	<div id="trends">
+	        		<span id="trends-heading">Trends</span> . <a href="#"  class="trend-link">Change</a><br>
+	        		<a href="#" class="trend-link">#summer</a><br>
+	        		<a href="#" class="trend-link">Taylor Swift</a><br>
+	        		<a href="#" class="trend-link">Steve Jobs</a><br>
+	        		<a href="#" class="trend-link">#carnival</a><br>
+	        		<a href="#" class="trend-link">London</a><br>
+	        		<a href="#" class="trend-link">#startup</a><br>
+	        		<a href="#" class="trend-link">#cutepuppies</a><br>
+	        		<a href="#" class="trend-link">#chocolate</a><br>
+	        		<a href="#" class="trend-link">#breakthrough</a><br>
+	        	</div>
+
+
+	        </div>
 	        <div id="content-2">
 	            <div id="content-2-1">Tweets</div>
 	            <div id="content-2-2">Who to follow . Refresh . View all</div>

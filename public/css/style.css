@@ -1,73 +1,73 @@
 body {
-	background-color: black; 
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #292f33;
-	font-size: 14px;
-	line-height: 18px;
+  background-color: black; 
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #292f33;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 header {
-	height: 46px;
-	background-color: white;
-	border-bottom: 0.5px solid gray;
-	box-shadow: 0px 1px 1px #999999;
+  height: 46px;
+  background-color: white;
+  border-bottom: 0.5px solid gray;
+  box-shadow: 0px 1px 1px #999999;
 }
 
 h1 {
   position: absolute;
   left: 50%;
-	-webkit-margin-before: 0.67em;
-	-webkit-margin-after: 0.67em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 #twitter_logo {
-	height: 20px;
+  height: 20px;
 }
 
 .navigation {
-	float: left;
-	display: block;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 1;
-	padding: 0 14px 0 4px;
+  float: left;
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0 14px 0 4px;
 }
 
 .pull-right {
-	float: right;
-/*	display: block;
-	font-size: 13px;
-	font-weight: 500;
-	line-height: 1;
-	padding: 0 14px 0 4px;
-	position: absolute;
-	top: 3px;
-	right: -3px;
-	width: 26px;
-	height: 26px;*/
+  float: right;
+/*  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0 14px 0 4px;
+  position: absolute;
+  top: 3px;
+  right: -3px;
+  width: 26px;
+  height: 26px;*/
 }
 
-ul {
-	margin: 0;
-	list-style: none;
-	padding: 0;
-	display: list-item;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 40px;
-	color: #66757f;
-	position: relative;
+.nav-option-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: list-item;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  color: #66757f;
+  position: relative;
 }
 
-li {
-	display: inline;
-	margin-right: 20px;
-	border-bottom-color: #93A644;
-	border-bottom: 4px solid #93A644;
-	transition: border-color .15s ease;
+.nav-option {
+  display: inline;
+  margin-right: 20px;
+  border-bottom-color: #93A644;
+  border-bottom: 4px solid #93A644;
+  transition: border-color .15s ease;
 }
 
 #body {
@@ -78,22 +78,114 @@ li {
 
 #content-1 {
     float:left;
-    width:265px;
-    padding: 10px;
-    background:#bfb;
+    width:285px;
+    background: black;
     margin-right: 5px;
 }
 
 #content-2-1 {
     float:left;
-    width:568px;
-    padding: 10px;
+    width:588px;
     background:#ddf;
     margin: 0 5px 0 5px;
 }
 #content-2-2 {
     float:right;
-    width:265px;
-    padding: 10px;
+    width:285px;
     background:#dff;
 }
+
+#user-link {
+  height: 95px;
+  width: 100%;
+  background-color: #3B94D9;
+  border-radius: 7px 7px 0px 0px;
+}
+
+#user-details {
+  padding: 10px;
+  background-color: white;
+}
+
+.user-picture {
+  height: 72px;
+  width: 72px;
+  border: 2px solid #fff;
+  border-radius: 7px;
+}
+
+.user-name-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.user-username {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.data-titles {
+  width: 100%;
+}
+
+.data-titles li {
+  font-size: 10px;
+  display: inline;
+  margin-right: 12%;
+}
+
+.data-counts {
+  list-style-type: none;
+  width: 100%;
+}
+
+.data-counts li {
+  font-size: 18px;
+  color: #3B94D9;
+  display: inline;
+}
+
+.data-count-tweets {
+  margin-right: 42px;
+}
+
+.data-count-following {
+  margin-right: 68px;
+}
+
+#compose-tweet {
+  background-color: #EBF4FB;
+  padding: 10px;
+  border-radius: 0px 0px 7px 7px;
+  border-top: 1px solid rgba(59,148,217,0.25);
+}
+
+.textbox {
+  border: 1px solid rgba(59,148,217,0.25); 
+  border-radius: 3px;    
+  outline:0; 
+  height: 19px; 
+  width: 247px; 
+  padding: 6px 8px 6px 8px;
+  font-size: 14px;
+}
+
+#trends {
+  margin: 10px 0 10px 0;
+  background: white;
+  padding: 20px 15px 20px 15px;
+  border-radius: 7px;  
+}
+
+#trends-heading {
+  font-size: 18px;
+}
+
+.trend-link {
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
