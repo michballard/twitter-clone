@@ -54,51 +54,43 @@ h1 {
 .nav-option {
   display: inline;
   margin-right: 20px;
-  /*border-bottom-color: #93A644;*/
-  /*border-bottom: 4px solid #93A644;*/
-  /*transition: border-color .15s ease;*/
 }
 
-
-.pull-right {
+.right-actions {
   float: right;
-  display: block;
+  text-align: right;
+  height: 36px;
+  margin: 7px;
   font-size: 13px;
   font-weight: 500;
   line-height: 1;
-  padding: 0 14px 0 4px;
 }
 
 .right-action-list {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-  color: #66757f;
-  font-weight: 600;
-  font-size: 13px;
-  position: relative;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 48px;
+  position: relative;  
 }
 
-.right-action-list-option {
-  display: block;
+.right-action-list li {
+  display: inline;  
   width: auto;
-  margin-left: 3em;
+}
+
+.search-form {
+  display: inline;
 }
 
 .search-input {
   width: 180px;
+  height: 19px;
   padding: 5px 27px 6px 12px;
   font-size: 12px;
   color: black;
   background-color: #f5f8fa;
   border: 1px solid LightGray;
   border-radius: 21px;
-  display: block;
+  position: relative;
+  top: -12px;
 }
 
 .search-button {
@@ -106,15 +98,19 @@ h1 {
   font-size: 15px;
   background-color: transparent;
   border: none;
-  display: block;
-  position: absolute;
+  margin-bottom: 23px;
   z-index: 1;
-  top: 0;
-  right: 0;
+  position: relative;
+  top: -7px;
+  right: 35px;
+}
+
+.magnifying-image {
+  height: 18px;
+  width: auto;
 }
 
 .tweet-button {
-  margin: 3px 0 0 0;
   padding: 0 13px 0 14px;
   border: none;
   border-radius: 4px;
@@ -124,8 +120,9 @@ h1 {
   font-weight: bold;
   text-align: center;
   height: 32px;
-  /*position: relative;*/
-  display: inline;
+  margin: 0 45px 0 10px;
+  position: relative;
+  top: -11px;
 }
 
 .tweet-button-text {
@@ -182,8 +179,8 @@ h1 {
 }
 
 .user-picture-small {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   border: 1px solid LightGray;
   border-radius: 7px;
 }
