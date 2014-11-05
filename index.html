@@ -22,17 +22,23 @@
 				</ul>
 			</div>
 		  <div class="pull-right">
-		  	<div class="search">
-			  	<form class="search-form">
-			  		<input class="search-input" placeholder="Search Twitter">
-			  		<button type="submit" class="search-button" src="public/images/magnifying-glass.png">
-			  	</form>
-			  </div>
-				<ul class="right-actions">
-					<li class="settings">
+				<ul class="right-action-list">
+
+					<li class="right-action-list-option">
+					  	<form class="search-form">
+					  		<input class="search-input" placeholder="Search Twitter">
+					  		<button type="submit" class="search-button" src="public/images/magnifying-glass.png">Q</button>
+					  	</form>
+					</li>
+
+					<li class="right-action-list-option">
 						<img src="public/images/michelle_photo.jpg"  class="user-picture-small">
 					</li>
-					<li class="create-tweet"><button>&#x270e;</button></li>
+
+					<li class="right-action-list-option">
+						<button class="tweet-button">&#x270e; <span class="tweet-button-text">Tweet</span></button>
+					</li>
+
 				</ul>
 		  </div>
 		</header>
@@ -111,8 +117,11 @@
 		            		</div>
 		            		<div class="tweet-content-2">
 		            			<span class="twitter-full-name">Britney Spears</span> 
-			            	  <span class="twitter-username">@britneyspears</span>  &middot; <span class="tweet-time">7m</span><br>
-			            	  <span class="tweet-content">Best movie ever!</span> <br>
+			            	  <span class="twitter-username">@britneyspears</span>  &middot; <span class="tweet-time">53m</span><br>
+			            	  <span class="tweet-content">
+			            	  	Best movie ever! Saw Frozen last night and loved it! 
+			            	  	<a href="#" class="link-twitter">#frozen</a> 
+			            	  </span> <br>
 			            	  <div class="tweet-links">
 				            	  <a href="#" class="link-other">Reply</a>
 				            	  <a href="#" class="link-other">Retweet</a>
@@ -138,7 +147,7 @@
 			            	<span class="twitter-full-name">Taylor Swift</span> 
 			            	<span class="twitter-username">@taylorswift13</span> <br>
 			            	<span class="grey-text">Followed by</span> <a href="#" class="link-other">Britney Spears</a> <br>
-			            	<button class="follow">Follow</button>
+			            	<button class="follow-button">Follow</button>
 		            	</div>
 
 	            		<div class="follow-suggestion">
@@ -146,7 +155,7 @@
 			            	<span class="twitter-full-name">Barney</span> 
 			            	<span class="twitter-username">@DinoMiteBarney</span> <br>
 			            	<span class="grey-text">Followed by</span> <a href="#" class="link-other">The Wiggles</a> <br>
-			            	<button class="follow">Follow</button>
+			            	<button class="follow-button">Follow</button>
 			            </div>
 
 	            	</div>
