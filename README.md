@@ -6,6 +6,8 @@ Twitter front-end
 
 This project is designed to replicate the front-end clone of the Twitter website.    
 
+<strong>Screenshot view:</strong>
+
 ![Screenshot](/public/images/screenshot.png)
 
 Technologies used
